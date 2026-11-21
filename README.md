@@ -1,5 +1,17 @@
 # -Balanceador-de-Carga-con-Apache
 # Despliegue de Pila LAMP en Tres Niveles con Balanceo de Carga y SSL
+## Índice
+
+- [Verificación del Sistema (Capturas de Pantalla)](#verificación-del-sistema-capturas-de-pantalla)
+  - [1. Servidor de Balanceo de Carga y SSL (`balanceador`)](#1-servidor-de-balanceo-de-carga-y-ssl-balanceador)
+  - [2. Servidores Web (`apache1` y `apache2`)](#2-servidores-web-apache1-y-apache2)
+  - [3. Servidor de Base de Datos (`mysql`)](#3-servidor-de-base-de-datos-mysql)
+  - [Screencast con la aplicación desplegada](#screencast-con-la-aplicación-desplegada)
+- [Scripts de Aprovisionamiento Explicados](#scripts-de-aprovisionamiento-explicados)
+  - [1. Script del Servidor Web (`papache.sh`)](#1-script-del-servidor-web-papachesh)
+  - [2. Script del Servidor de Base de datos (`pmysql.sh`)](#2-script-del-servidor-de-base-de-datos-pmysqlsh)
+  - [3. Script del Balanceador (`pbalanceador.sh`)](#3-script-del-balanceador-pbalanceadorsh)
+
 
 Este documento detalla la infraestructura basada en **Debian 12 (Bookworm)** y **Vagrant** para desplegar una aplicación web en tres capas segmentadas por redes internas aisladas (`red_capa1_capa2` y `red_capa2_capa3`):
 
