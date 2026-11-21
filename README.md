@@ -181,8 +181,8 @@ set -e
 
 # Define las variables con el dominio dinámico de DuckDNS, su token de autenticación y el correo para Let's Encrypt.
 DOMINIO="franbalanceador.duckdns.org"
-TOKEN_DUCKDNS="4654756743265734"
-EMAIL="jkanime00000@gmail.com"
+TOKEN_DUCKDNS="tu token aqui"
+EMAIL="ejemplo@gmail.com"
 
 # --- 1. Instalación de Apache, Certbot y el plugin DNS ---
 # Configura las instalaciones de apt para que sean automáticas y no soliciten confirmaciones.
