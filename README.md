@@ -27,6 +27,11 @@ Este documento detalla la infraestructura basada en **Debian 12 (Bookworm)** y *
 ### Screencast con la aplicación desplegada
 A continuación se muestra la grabación de pantalla que demuestra el correcto funcionamiento de la aplicación web interactuando con la base de datos:
 
+
+https://github.com/user-attachments/assets/1e92ec58-314f-4f64-a330-443a5c61f074
+
+
+
 ##  Scripts de Aprovisionamiento Explicados
 
 A continuación se desglosan los comandos utilizados en la automatización junto con la explicación detallada de cada orden.
